@@ -25,8 +25,8 @@ ones easier.
 **Technologies** | C#, .Net, Go, ZeroMQ, AWS
 <br><br>
 The Automated Passenger Counting System(APC) was the project I worked on during my
-internship at MTA. The system consolidated real-time counts as well as other
-of passengers on buses which is stored into a database for use by other departments.
+internship at MTA. The system consolidated real-time counts of passengers on buses
+which is stored into a database for use by other departments.
 Parts of the system include:
 
 - .NET application which interfaces with the APC sensors to retrieve counts
