@@ -10,8 +10,7 @@ Projects
 ### Face Assistant
 **Role** | Product Manager, Backend Developer <br>
 **Technologies** | Go, Python, OpenFace, scikit-learn, Docker, AWS, Java,
-Android APIs<br>
-_Repository_
+Android APIs
 <br><br>
 Face Assistant is an application for Android and Google Glass that I worked on
 with two classmates for CCNY's Computer Science Capstone Course. The
@@ -39,10 +38,9 @@ Parts of the system include:
 
 <br><br>
 
-### PyMario
+### [PyMario](https://github.com/Raymond-Zhu/CSC113_Project_2)
 **Role** | Lead Developer<br>
-**Technologies** | Python, PyGame<br>
-[_Repository_](https://github.com/Raymond-Zhu/CSC113_Project_2)
+**Technologies** | Python, PyGame
 <br><br>
 Final project for my Python class in CCNY. Using PyGame, I recreated parts of
 the classic Mario game. It features rendering a map, controlling Mario, Goomba
