@@ -1,5 +1,5 @@
 # Site settings
-title: Jekyll-Uno
+title: Raymond Zhu
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: '/jekyll-uno/'
@@ -9,7 +9,7 @@ baseurl: '/jekyll-uno/'
 author:
   name: 'Josh Gerdes'
   email: josh@joshgerdes.com
-  github_username:  joshgerdes
+  github_username:  Raymond-Zhu
   linkedin_username:  joshgerdes
 
 defaults:
@@ -32,6 +32,7 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+  parse_block_html: true
 
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
