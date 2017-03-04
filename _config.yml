@@ -2,12 +2,12 @@
 title: Raymond Zhu
 description: ''
 url: 'http://raymond-zhu.github.io'
-baseurl: '/'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Raymond-Zhu'
+  name: 'Raymond Zhu'
   email: junhao.raymond.zhu@gmail.com
   github_username: Raymond-Zhu
   linkedin_username: raymond-zhu-8777155a
