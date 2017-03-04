@@ -18,7 +18,6 @@ application uses [OpenFace](http://cmusatyalab.github.io/openface/), a facial
 recognition implementation, to help
 those who have prosopagnosia, also known as face blindness, identify their loved
 ones easier.
-
 <br><br>
 
 ### Automated Passenger Counting System
@@ -35,7 +34,6 @@ Parts of the system include:
 - A queue that publishes the incoming count data from the buses to other applications for consumption
 - Prototype bus load calculator which takes the data from the queue and calculates the
   load on the buses for customers to see on the BusTime app.
-
 <br><br>
 
 ### [PyMario](https://github.com/Raymond-Zhu/CSC113_Project_2)
