@@ -1,0 +1,8 @@
+---
+title: "First Blog Post! Amazon S3 Outtage"
+date: 2017-03-05
+categories: [tech]
+tags: [tech]
+---
+
+Test
