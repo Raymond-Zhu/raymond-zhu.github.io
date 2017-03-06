@@ -11,7 +11,7 @@ a large chunk of the users on the internet feels the effect. There was a lot of 
 an outtage of an even larger scale happens to AWS would cripple the internet severely.
 
 Amazon S3 is a service for storing and hosting data. Some common things that S3 gets used for is storing static assets,
-for example images for their site. Sometimes, static websites are also served through S3. Something that not everyone might
+for example images for a site, and serving static websites. Something that not everyone might
 not know is that the AMIs for EC2 servers are stored in S3 as well. AMIs are basically snapshots of an EC2 server used by
 Amazon's ELB(Elastic Load Balancer) to fire up more servers in response to higher traffic. Without the ability to provision
 more servers without the AMIs, many large sites experience slowdowns and bottlenecks.
@@ -31,5 +31,5 @@ to another region because it's not worth it. I believe this was S3's first outta
 accepted lost since I don't need 100% uptime. Of course, I get almost no traffic on my website compared to larger companies like Imgur. However, Imgur
 will still ned to factor in the cost of replicating what they have on AWS(which could be quite expensive considering their scale) versus the money they lose
 from having their service interrupted. I could also have no idea what I'm talking about and their DevOps team didn't account for potential issues. One thing
-I'm certain of is companies will definitely look into ways to prevent something like this from happening again in some way or another.
+I'm certain of though, is that companies will definitely look into ways to prevent something like this from happening again in some way or another.
 
