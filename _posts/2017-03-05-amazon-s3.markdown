@@ -5,4 +5,31 @@ categories: [tech]
 tags: [tech]
 ---
 
-Test
+A few days ago, Amazon S3's us-east-1 region went down causing major sites on the internet to experience issues.
+One of them ironically being Amazon's dashboard which displays the status of AWS. Every time AWS experiences an outtage,
+a large chunk of the users on the internet feels the effect. There was a lot of concern and comments on this issue since
+an outtage of an even larger scale happens to AWS would cripple the internet severely.
+
+Amazon S3 is a service for storing and hosting data. Some common things that S3 gets used for is storing static assets,
+for example images for their site. Sometimes, static websites are also served through S3. Something that not everyone might
+not know is that the AMIs for EC2 servers are stored in S3 as well. AMIs are basically snapshots of an EC2 server used by
+Amazon's ELB(Elastic Load Balancer) to fire up more servers in response to higher traffic. Without the ability to provision
+more servers without the AMIs, many large sites experience slowdowns and bottlenecks.
+
+A common sentiment many shared about this incident was that too many companies are putting their eggs in one basket and concerns about the centralized nature of
+AWS. These concerns actually had me scratching my head a bit. While the concern of the internet having a single point of failure deserves some merit,
+the thing with AWS is that it's not centralized at all. Amazon has datacenters all around the world in various locations. The S3 outtage only affected
+the us-east-1 region, though it is the most popular region hence why so much of the internet was affected. If the websites and companies affected by
+the outtage replicated the data in their S3 buckets to another region(which is a service Amazon offers for more money of course), then they would not
+have been affected at all. The only "centrilization" is that it's all under the AWS umbrella and people aren't comfortable about how big that umbrella is.
+It doesn't matter which company you are using to host your servers or how many diferent companies you use to host the servers. Any datacenter could go down at any time.
+The way to deal with the issue is more redundancy.
+
+So then why didn't the companies affected replicate to other regions? I'm not going to pretend I know what the companies are thinking but if I were
+to make a guess, it would probably be because the cost.  If I served my personal website from S3, I wouldn't need to replicate
+to another region because it's not worth it. I believe this was S3's first outtage in two years and it only lasted a few hours. This downtime is an
+accepted lost since I don't need 100% uptime. Of course, I get almost no traffic on my website compared to larger companies like Imgur. However, Imgur
+will still ned to factor in the cost of replicating what they have on AWS(which could be quite expensive considering their scale) versus the money they lose
+from having their service interrupted. I could also have no idea what I'm talking about and their DevOps team didn't account for potential issues. One thing
+I'm certain of is companies will definitely look into ways to prevent something like this from happening again in some way or another.
+
