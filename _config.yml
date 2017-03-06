@@ -4,7 +4,7 @@ description: 'Welcome! I''m a computer science student at CCNY and intern at MTA
 url: 'raymond-zhu.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'rayzhu-me'
 
 author:
   name: 'Raymond Zhu'
