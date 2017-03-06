@@ -30,7 +30,7 @@ So then why didn't the companies affected replicate to other regions? I'm not go
 to make a guess, it would probably be because the cost.  If I served my personal website from S3, I wouldn't need to replicate
 to another region because it's not worth it. I believe this was S3's first outtage in two years and it only lasted a few hours. This downtime is an
 accepted lost since I don't need 100% uptime. Of course, I get almost no traffic on my website compared to larger companies like Imgur. However, Imgur
-will still ned to factor in the cost of replicating what they have on AWS(which could be quite expensive considering their scale) versus the money they lose
-from having their service interrupted. I could also have no idea what I'm talking about and their DevOps team didn't account for potential issues. One thing
+will still need to factor in the cost of replicating what they have on AWS(which could be quite expensive considering their scale) versus the money they lose
+from having their service interrupted. I could also have no idea what I'm talking about and their DevOps team just didn't account for AWS outtages. One thing
 I'm certain of though, is that companies will definitely look into ways to prevent something like this from happening again in some way or another.
 
