@@ -1,7 +1,7 @@
 # Site settings
 title: Raymond Zhu
 description: 'Welcome! I''m a computer science student at CCNY and intern at MTA. I enjoy traveling, playing board games, and exploring new technologies in my spare time.'
-url: 'raymond-zhu.github.io'
+url: 'http://raymond-zhu.github.io/'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'rayzhu-me'
